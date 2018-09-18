@@ -7,8 +7,6 @@ minejums = int(input("Lūdzu ievadiet skaitli no 1 - 100: "))
 rezultats = str("M")
 MinejumuSkaits = 0
 
-
-
 while rezultats != "p":
     MinejumuSkaits = MinejumuSkaits + 1
     print(secret)
@@ -22,6 +20,7 @@ while rezultats != "p":
         secret = round((intMAX+intMIN)/2)
     else:
         secret = secret
+
 print("Minējumu skaits: ", MinejumuSkaits)
 print("Pareizā atbilde: ", secret)
 
